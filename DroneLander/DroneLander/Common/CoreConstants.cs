@@ -17,4 +17,10 @@ namespace DroneLander.Common
         public const double StartingFuel = 1000.0;
         public const double StartingThrust = 0.0;
     }
+
+    public static class MobileServiceConstants
+    {
+        public const string AppUrl = "https://dronelandermobile055.azurewebsites.net";
+    }
+
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
 
 namespace DroneLander
@@ -10,6 +9,13 @@ namespace DroneLander
     public partial class App : Application
     {
         public static MainViewModel ViewModel { get; set; }
+
+        public static Services.IAuthenticationService Authenticator { get; private set; }
+
+        public static void InitializeAuthentication(Services.IAuthenticationService authenticator)
+        {
+            Authenticator = authenticator;
+        }
 
         public App()
         {
