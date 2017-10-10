@@ -12,8 +12,8 @@ namespace DroneLander.Helpers
         public static IAudioService AudioPlayer;
         public static void ToggleEngine()
         {
-           // AudioPlayer = Xamarin.Forms.DependencyService.Get<IAudioService>();
-           // AudioPlayer.ToggleEngine();
+            //AudioPlayer = Xamarin.Forms.DependencyService.Get<IAudioService>();
+            //AudioPlayer.ToggleEngine();
         }
 
         public static void AdjustVolume(double volume)
@@ -24,8 +24,8 @@ namespace DroneLander.Helpers
 
         public static void KillEngine()
         {
-           // AudioPlayer = Xamarin.Forms.DependencyService.Get<IAudioService>();
-           // AudioPlayer.KillEngine();
+            //AudioPlayer = Xamarin.Forms.DependencyService.Get<IAudioService>();
+            //AudioPlayer.KillEngine();
         }
     }
 }
